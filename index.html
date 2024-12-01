@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sign-up.css">
+</head>
+<body>
+    <div class="visual">
+        <div class="center">
+            <img src="images/draw.png" alt="draw" id="draw-logo">
+        </div>
+    </div>
+    <div id="form">
+        <div>
+          <p class="quote">
+            “If you hear a voice within you say, ‘You cannot paint,’ 
+            then by all means paint, and that voice will be silenced”
+             – Vincent Van Gogh
+          </p>
+        </div>
+        <div class="form-info">
+            <h2>Let's do this!</h2>
+            <form action="page">
+                <div class="row">
+                    <div class="cell">
+                        <label for="first-name">FIRST NAME
+                            <input type="text" id="first-name" name="first-name">
+                    </div>
+                    </label>
+              <div class="cell">
+                   <label for="last-name">LAST NAME
+                       <input type="text" id="last-name" name="last-name">
+                    </label>
+                </div>
+                </div>
+                <div class="row">
+                    <div class="cell">
+                        <label for="email">EMAIL
+                            <input type="email" id="email">
+                        </label>
+                    </div>
+                    <div class="cell">
+                        <label for="phone-number">PHONE NUMBER
+                            <input type="text" id="phone-number" inputmode="numeric" pattern="\d*">
+                        </label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cell">
+                        <label for="password">PASSWORD
+                            <input type="password" id="password">
+                        </label>
+                    </div>
+                    <div class="cell">
+                        <label for="confirm-password">CONFIRM PASSWORD
+                            <input type="password" id="confirm-password">
+                        </label>
+                    </div>  
+                </div>
+            </form>
+        </div>
+        <div class="submit-info"><button type="submit">Create Account</button>
+        <p>Already have an account? <a href="">log in</a></p></div>
+    </div>
+</body>
+</html>
